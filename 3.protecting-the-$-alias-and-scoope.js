@@ -1,4 +1,4 @@
-// Protecting the $ Alias and Adding Scope
+// Protecting the $ Alias and Adding Scope by wrapping it in a closure.
 
 //
 // Protect $
@@ -12,6 +12,7 @@
 	};
 }( jQuery ));
 
+
 //
 // Hide variables from others
 // --------------------------
@@ -24,5 +25,3 @@
 		return this;
 	};
 }( jQuery ));
-
-

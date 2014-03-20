@@ -1,4 +1,4 @@
-
+// Make your plugin extensible with options, and default options.
 
 $.fn.greenify = function( options ) {
 	// Extend our default options with those provided.

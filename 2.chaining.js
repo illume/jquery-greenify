@@ -8,4 +8,5 @@ $.fn.greenify = function () {
 	});
 }
 
+// greenify all the links, then add a "greenified" class to them.
 $( "a" ).greenify().addClass( "greenified" );
